@@ -7,12 +7,11 @@
  */
 int main(void)
 {
-	int n;
+	int n, last_digit;
 	
 	printf("Enter the value of n:");
 	scanf("%d", &n);
-	int last_digit = n % 10;
-	
+	last_digit = n % 10;
 	if (last_digit > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, last_digit);
@@ -21,7 +20,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, last_digit);
 	}
-	else if (0 < last_digit < 6)
+	else if (last_digit < 6 && !0)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digit);
 	}
