@@ -8,7 +8,7 @@
 int main(void)
 {
 	int n, last_digit;
-	
+
 	printf("Enter the value of n:");
 	scanf("%d", &n);
 	last_digit = n % 10;
