@@ -10,7 +10,7 @@ int main(void)
 	int n;
 
 	printf("Enter the value of n:");
-	scanf("%d", $n);
+	scanf("%d", &n);
 	if (n > 0)
 	{
 		printf("is positive");
