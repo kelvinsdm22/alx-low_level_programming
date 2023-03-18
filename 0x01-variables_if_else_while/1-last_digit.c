@@ -8,10 +8,11 @@
 int main(void)
 {
 	int n;
-	int last_digit = n % 10; 
-
+	
 	printf("Enter the value of n:");
 	scanf("%d", &n);
+	int last_digit = n % 10;
+	
 	if (last_digit > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, last_digit);
